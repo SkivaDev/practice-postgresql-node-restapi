@@ -5,4 +5,10 @@ CREATE TABLE users(
     create_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
-INSERT INTO users(name, email) VALUES('John Doe', 'john@gmail.com'), ('Jane Doe', 'jane@gmail.com');
+-- Insertar registros en la tabla users
+INSERT INTO users (name, email) VALUES
+('Juan Perez', 'juan.perez@example.com'),
+('Maria Garcia', 'maria.garcia@example.com'),
+('Carlos Ruiz', 'carlos.ruiz@example.com'),
+('Ana Lopez', 'ana.lopez@example.com'),
+('Luis Martinez', 'luis.martinez@example.com');
